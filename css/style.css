@@ -1,0 +1,208 @@
+#container
+{
+	margin: 0 30px;
+	background: #fff;
+	font-family:georgia;
+}
+
+#header
+{
+	background: none repeat scroll 0 0 #A6071C;
+    min-height: 100px;
+    padding: 10px;
+}
+
+#header h1 { margin: 0; float:left; color:#fff;}
+
+
+#content
+{
+	clear: left;
+	padding: 20px;
+	min-height:600px;
+}
+
+#content h2
+{
+	color: #000;
+	font-size: 160%;
+	margin: 0 0 .5em;
+}
+
+#footer
+{
+	background: none repeat scroll 0 0 #A6071C;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+	color : #fff;
+}
+
+.container{
+    display:table;
+    width:90%;
+    border-collapse: collapse;
+    }
+.right .container {
+width:100%;
+}
+.heading{
+     font-weight: bold;
+     display:table-row;
+     background-color:#C91622;
+     text-align: center;
+     line-height: 25px;
+     font-size: 14px;
+     font-family:georgia;
+     color:#fff;
+    
+}
+.table-row{  
+     display:table-row;
+     text-align: center;
+}
+.col{
+    display:table-cell;
+    border: 1px solid #CCC;
+}
+.left{
+	float:left;
+	width:40%;
+	min-width:40%;
+}
+.right{
+	float:left;
+	width:60%;
+	min-width:60%;
+}
+
+.btn{
+   background: -moz-linear-gradient(center top , #c91622 0%, #e24751 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ac0813;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px lightGrey, 0 1px 0 #78afce inset;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 19px;
+    height: 16px;
+    line-height: 15px;
+    margin: 10px 0;
+    padding: 9px 3px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #1d4a5f;
+    white-space: nowrap;
+    width: 107px;
+}
+
+.form-wrapper {
+    width: 450px;
+    padding: 8px;
+	float:right;
+    margin: 10px auto;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dedede #bababa #aaa #bababa;
+    box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+    border-radius: 10px;    
+    background-color: #f6f6f6;
+    background-image: linear-gradient(top, #f6f6f6, #eae8e8);
+}
+
+.form-wrapper #search {
+    width: 330px;
+    height: 40px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 16px 'georgia', 'trebuchet MS', 'Tahoma';
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+    border-radius: 3px;      
+}
+
+.form-wrapper #search:focus {
+    outline: 0; 
+    border-color: #aaa;
+    box-shadow: 0 1px 1px #bbb inset;  
+}
+
+.form-wrapper #search::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+}
+
+.form-wrapper #search:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+.form-wrapper #search:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+} 
+
+.form-wrapper #submit {
+     background: -moz-linear-gradient(center top , #c91622 0%, #e24751 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ac0813;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px lightGrey, 0 1px 0 #78afce inset;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    height: 40px;
+    line-height: 15px;
+    margin: 0 0 4px;
+    padding: 12px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #1d4a5f;
+    white-space: nowrap;
+    width: 101px;
+}
+  
+.form-wrapper #submit:hover,
+.form-wrapper #submit:focus {       
+    background-color: #31b2c3;
+    background-image: linear-gradient(top, #0483a0, #31b2c3);
+}   
+  
+.form-wrapper #submit:active {
+    outline: 0;    
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;    
+}
+  
+.form-wrapper #submit::-moz-focus-inner {
+    border: 0;
+}
+
+img.loading {
+     display: none;
+    left: 46%;
+    margin-right: auto;
+    position: absolute;
+    top: 35%;
+    width: 73px;
+}
+.message {
+    font-weight: bold;
+	background: none repeat scroll 0 0 #A6071C;
+    min-height: 70px;
+	position : fixed;
+	display:block;
+	opacity : 1;
+	min-width : 300px;
+	background: -moz-linear-gradient(center top , #c91622 0%, #e24751 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ac0813;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px lightGrey, 0 1px 0 #78afce inset;
+    color: white;
+    cursor: pointer;
+	top:30%;
+	left:30%;
+	padding : 20px;
+}
